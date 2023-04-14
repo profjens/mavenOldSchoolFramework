@@ -1,0 +1,24 @@
+{
+    attributes = (
+        {allowsNull = N; name = id; prototypeName = id; }, 
+        {
+            allowsNull = Y; 
+            columnName = myTimeInJava; 
+            name = myTimeInJava; 
+            prototypeName = javaLocalDate; 
+        }, 
+        {
+            allowsNull = Y; 
+            columnName = vorName; 
+            name = vorName; 
+            prototypeName = varchar100; 
+        }
+    ); 
+    attributesUsedForLocking = (id, myTimeInJava, vorName); 
+    className = "js_fb5.w_hs.model.MeinUser"; 
+    classProperties = (myTimeInJava, vorName); 
+    externalName = MeinUser; 
+    fetchSpecificationDictionary = {}; 
+    name = MeinUser; 
+    primaryKeyAttributes = (id); 
+}
